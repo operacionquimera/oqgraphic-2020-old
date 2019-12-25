@@ -6,11 +6,14 @@
  */
 
 import React from "react"
+import { setConfig } from 'react-hot-loader';
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Header from "../components/header"
 import "./layout.css"
 import Transition from '../components/transition'
+
+setConfig({ pureSFC: true });
 
 const Layout = ({ children, location }) => (
   <StaticQuery
