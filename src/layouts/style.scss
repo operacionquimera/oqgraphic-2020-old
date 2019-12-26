@@ -64,7 +64,7 @@ img {
   .nav-wrapper {
     padding: 0 2.5rem;
     width: 100%;
-    [aria-current="page"] {
+    > a {
       width: 200px;
       svg {
         width: 100%;
@@ -75,7 +75,7 @@ img {
     }
     .link-container {
       /* display: none; */
-      .nav-link {
+      a {
         font-family: $circular;
         margin-left: 4rem;
         font-size: 1.2rem;
@@ -149,7 +149,7 @@ nav {
   .nav-wrapper {
     padding: 0 2.5rem;
     width: 100%;
-    [aria-current="page"] {
+    > a {
       width: 200px;
       svg {
         width: 100%;
@@ -160,7 +160,7 @@ nav {
     }
     .link-container {
       /* display: none; */
-      .nav-link {
+      a {
         font-family: $circular;
         margin-left: 4rem;
         font-size: 1.2rem;
@@ -290,11 +290,11 @@ nav {
 }
 
 
-  .navbar .nav-wrapper .link-container .nav-link {
+  .navbar .nav-wrapper .link-container a {
     color: white;
   }
-  .navbar .nav-wrapper [aria-current="page"] svg path,
-  .navbar .nav-wrapper [aria-current="page"] svg polygon {
+  .navbar .nav-wrapper > a svg path,
+  .navbar .nav-wrapper > a svg polygon {
     fill: white;
   }
 
@@ -399,7 +399,7 @@ nav {
     height: 5rem;
     .nav-wrapper {
       padding: 0 2rem;
-      [aria-current="page"] {
+      > a {
         width: 180px;
       }
     }
@@ -436,7 +436,7 @@ nav {
     height: 4rem;
     .nav-wrapper {
       padding: 0 1.5rem;
-      [aria-current="page"] {
+      > a {
         width: 160px;
       }
     }
