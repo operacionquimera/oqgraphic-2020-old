@@ -10,8 +10,10 @@ import { setConfig } from 'react-hot-loader';
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Header from "../components/header"
+import "./index.scss"
 import "./layout.scss"
 import "./font.scss"
+import "./variables.scss"
 import "./style.scss"
 import Transition from '../components/transition'
 
@@ -51,5 +53,8 @@ const Layout = ({ children, location }) => (
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
+
+
+
 
 export default Layout
