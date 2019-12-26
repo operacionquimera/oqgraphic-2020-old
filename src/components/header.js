@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
 
   <nav class="navbar flex justify-stretch open">
     <div class="nav-wrapper flex align-center justify-between">
-      <Link class="logo" to="/">
+      <Link to="/">
         <Logo></Logo>
       </Link>
 
