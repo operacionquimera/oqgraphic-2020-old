@@ -24,7 +24,7 @@ class Transition extends React.PureComponent {
   render() {
     const { children, location } = this.props
     return (
-      <TransitionGroup>
+      <TransitionGroup class="content flex">
         <ReactTransition
           key={location.pathname}
           timeout={{
@@ -34,6 +34,7 @@ class Transition extends React.PureComponent {
         >
           {status => (
             <div
+              class="transition"
               style={{
                 ...getTransitionStyles[status],
               }}

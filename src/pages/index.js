@@ -3,18 +3,25 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <div>
+  <section class="section-home flex align-end justify-end display">
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi motherfuckers!</h1>
-    <p>Welcome to my nasty place</p>
-    <p>Now go build something great.</p>
+    <div id="container"></div>
 
-    <Link to="/blog/">Go to my blog</Link> <br />
-    <Link to="/about/">About</Link> <br />
-    <Link to="/contact/">Contact</Link> <br />
-    <Link to="/404/">404</Link> <br/>
-    <Link to="/page-2/">Page two</Link>
-  </div>
+    <div class="text-container flex vertical align-end">
+      <div class="hello-there flex" id="hello-there">
+        <h2>H</h2><h2>e</h2><h2>l</h2><h2>l</h2><h2>o</h2><h2>&nbsp;</h2><h2>t</h2><h2>h</h2><h2>e</h2><h2>r</h2><h2>e</h2><h2>!</h2>
+      </div>
+      <p>I'm Mario Parra, Chilean graphic designer, illustrator and front-end developer based in Berlin.
+My work is mainly focused on finding the most efficient and elegant solution possible, driving the creative process through strong concepts, considering carefully every detail.</p>
+      <p>Welcome to my place!</p>
+    </div>
+    <div class="social-container flex-center">
+      <a class="social-link flex-center" href="https://www.behance.net/operacionquimera" target="_blank">Behance</a>
+      <a class="social-link flex-center" href="https://www.instagram.com/marioparramario/" target="_blank">Instagram</a>
+      <a class="social-link flex-center" href="https://dribbble.com/oqgraphic" target="_blank">Dribbble</a>
+    </div>
+
+  </section>
 )
 
 export default IndexPage

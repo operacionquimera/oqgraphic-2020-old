@@ -31,21 +31,15 @@ const Header = ({ siteTitle }) => (
 
   <nav class="navbar flex justify-stretch open">
     <div class="nav-wrapper flex align-center justify-between">
-      <Link class="logo" href="">
+      <Link class="logo" to="/">
         <Logo></Logo>
       </Link>
 
 
-      <Link to="/">
-        {siteTitle}
-      </Link>
-
-
-
-      <div class="link-container flex justify-end no-barba">
-        <Link to="/contact/" class="nav-link">Illustration</Link>
-        <Link to="/404/" class="nav-link">Digital</Link>
-        <Link to="/page-2/" class="nav-link">Graphic</Link>
+      <div class="link-container flex justify-end">
+        <Link to="/illustration/" class="nav-link">Illustration</Link>
+        <Link to="/digital/" class="nav-link">Digital</Link>
+        <Link to="/graphic/" class="nav-link">Graphic</Link>
         <Link to="/about/" class="nav-link">About</Link>
 
       </div>
