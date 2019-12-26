@@ -10,7 +10,7 @@ import { setConfig } from 'react-hot-loader';
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Header from "../components/header"
-import "./layout.css"
+import "./layout.scss"
 import Transition from '../components/transition'
 
 setConfig({ pureSFC: true });
