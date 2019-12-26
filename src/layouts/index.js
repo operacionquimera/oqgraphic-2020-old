@@ -11,6 +11,8 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Header from "../components/header"
 import "./layout.scss"
+import "./font.scss"
+import "./style.scss"
 import Transition from '../components/transition'
 
 setConfig({ pureSFC: true });
