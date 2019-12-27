@@ -3,12 +3,54 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 
 
-const ContactPage = () => (
- <div>
-    <h2>Hi you've reached my contact page</h2>
-    <p>Send me a mail @ekene.xyz</p>
-    <Link to="/"> Go to the homepage</Link>
-  </div>
+const IllustrationPage = () => (
+ <section class="illustration flex-vertical">
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+    <p>Illustration!!!!!!!!!!</p>
+  </section>
 )
 
-export default ContactPage
+export default IllustrationPage

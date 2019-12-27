@@ -1,11 +1,56 @@
 import React from "react"
 import { Link } from "gatsby"
+import SEO from "../components/seo"
+
 
 const AboutPage = () => (
-  <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Homepage</Link>
-  </div>
+ <section class="about flex-vertical">
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+    <p>About!!!!!!!!!!</p>
+  </section>
 )
+
 export default AboutPage

@@ -28,7 +28,6 @@ body {
   overflow-y: hidden;
   overflow-x: hidden;
   font-family: $circular;
-  color: white;
   letter-spacing: 0.05rem;
   background: white;
   text-rendering: optimizeLegibility;
@@ -133,6 +132,9 @@ nav {
   height: 100%;
 }
 
+.section-home {
+  color: white;
+}
 
 /* Here */
 

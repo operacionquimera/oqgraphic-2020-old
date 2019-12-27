@@ -1,15 +1,56 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import SEO from "../components/seo"
 
-const SecondPage = () => (
-  <div>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </div>
+
+const DigitalPage = () => (
+ <section class="digital flex-vertical">
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+    <p>Digital!!!!!!!!!!</p>
+  </section>
 )
 
-export default SecondPage
+export default DigitalPage
