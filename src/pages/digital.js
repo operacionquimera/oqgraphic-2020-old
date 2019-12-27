@@ -1,7 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import SEO from "../components/seo"
-
 
 const DigitalPage = () => (
  <section class="digital flex-vertical">

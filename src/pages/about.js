@@ -1,7 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
-import SEO from "../components/seo"
-
 
 const AboutPage = () => (
  <section class="about flex-vertical">

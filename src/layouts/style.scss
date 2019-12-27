@@ -36,9 +36,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
 }
-#barba-wrapper {
-  overflow: hidden;
-}
 
 a {
   color: white;
@@ -105,13 +102,6 @@ img {
 }
 
 
-
-
-nav {
-  background: rebeccapurple;
-  background: blue;
-  margin-bottom: 1.45rem;
-}
 #___gatsby,
 #gatsby-focus-wrapper,
 .transition {
@@ -132,16 +122,15 @@ nav {
   height: 100%;
 }
 
-.section-home {
+.home {
   color: white;
 }
 
 /* Here */
 
-
-
-
+/* Here */
 .navbar {
+  background: #d4d4d4;
   position: absolute;
   height: 6rem;
   width: 100%;
@@ -192,7 +181,7 @@ nav {
   }
 }
 
-.section-home {
+.home {
   width: 100%;
   height: 100vh;
   position: relative;
@@ -367,7 +356,7 @@ nav {
   }
 }
 @media (max-width: $desktop) {
-  .section-home {
+  .home {
     .text-container {
       width: 30rem;
       padding-right: 6rem;
@@ -406,7 +395,7 @@ nav {
       }
     }
   }
-  .section-home {
+  .home {
     .planet {
       width: auto;
       height: 110%;
@@ -449,7 +438,7 @@ nav {
     -ms-flex-align: center;
     align-items: center;
   }
-  .section-home {
+  .home {
     .text-container {
       padding: 0 1.5rem;
       margin: auto;

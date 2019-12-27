@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
-  <section class="section-home flex align-end justify-end">
+  <section class="home flex align-end justify-end">
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div id="container"></div>
 
