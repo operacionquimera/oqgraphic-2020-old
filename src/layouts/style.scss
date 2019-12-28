@@ -25,8 +25,9 @@ html {
 }
 body {
   height: 100vh;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  overflow: auto;
+  /* overflow-y: hidden;
+  overflow-x: hidden; */
   font-family: $circular;
   letter-spacing: 0.05rem;
   background: white;

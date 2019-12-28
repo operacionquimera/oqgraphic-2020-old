@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-import "../layouts/masonry.scss";
+// import "../layouts/masonry.scss";
 
 class Imagenes extends Component {
   constructor() {
