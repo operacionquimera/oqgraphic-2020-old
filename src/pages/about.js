@@ -1,7 +1,7 @@
 import React from "react"
 
 const AboutPage = () => (
- <section class="about flex-vertical">
+ <section className="about flex-vertical">
     <p>About!!!!!!!!!!</p>
     <p>About!!!!!!!!!!</p>
     <p>About!!!!!!!!!!</p>

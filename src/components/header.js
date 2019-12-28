@@ -6,14 +6,14 @@ import Logo from "./logo";
 
 const Header = ({ siteTitle }) => (
 
-  <nav class="navbar flex justify-stretch open">
-    <div class="nav-wrapper flex align-center justify-between">
+  <nav className="navbar flex justify-stretch open">
+    <div className="nav-wrapper flex align-center justify-between">
       <Link to="/">
         <Logo></Logo>
       </Link>
 
 
-      <div class="link-container flex justify-end">
+      <div className="link-container flex justify-end">
         <Link to="/illustration/">Illustration</Link>
         <Link to="/digital/">Digital</Link>
         <Link to="/graphic/">Graphic</Link>

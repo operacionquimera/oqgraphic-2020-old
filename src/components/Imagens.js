@@ -26,15 +26,14 @@ class Imagenes extends Component {
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
         <Masonry>
           {this.state.items.map((e, i) => (
-            <div style={{ padding: "7px" }}>
+            <div style={{ padding: "7px" }} key={i}>
               <img
-                key={i}
+
                 src={e.urls.small}
                 style={{
                   width: "100%",
                   display: "block",
-                  marginBottom: "5px",
-                  borderRadius: "35px"
+                  marginBottom: "5px"
                 }}
                 alt=""
               />
