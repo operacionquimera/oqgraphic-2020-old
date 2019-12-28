@@ -16,9 +16,9 @@ My work is mainly focused on finding the most efficient and elegant solution pos
       <p>Welcome to my place!</p>
     </div>
     <div className="social-container flex-center">
-      <a className="social-link flex-center" href="https://www.behance.net/operacionquimera" target="_blank">Behance</a>
-      <a className="social-link flex-center" href="https://www.instagram.com/marioparramario/" target="_blank">Instagram</a>
-      <a className="social-link flex-center" href="https://dribbble.com/oqgraphic" target="_blank">Dribbble</a>
+      <Link className="social-link flex-center" href="https://www.behance.net/operacionquimera" target="_blank">Behance</Link>
+      <Link className="social-link flex-center" href="https://www.instagram.com/marioparramario/" target="_blank">Instagram</Link>
+      <Link className="social-link flex-center" href="https://dribbble.com/oqgraphic" target="_blank">Dribbble</Link>
     </div>
 
   </section>
